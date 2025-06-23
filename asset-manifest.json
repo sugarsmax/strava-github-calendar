@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/strava-github-calendar/static/css/main.f071b5a5.chunk.css",
-    "main.js": "/strava-github-calendar/static/js/main.8714cd13.chunk.js",
-    "main.js.map": "/strava-github-calendar/static/js/main.8714cd13.chunk.js.map",
+    "main.js": "/strava-github-calendar/static/js/main.d6f634c9.chunk.js",
+    "main.js.map": "/strava-github-calendar/static/js/main.d6f634c9.chunk.js.map",
     "runtime-main.js": "/strava-github-calendar/static/js/runtime-main.abbb06d3.js",
     "runtime-main.js.map": "/strava-github-calendar/static/js/runtime-main.abbb06d3.js.map",
     "static/js/2.441e5988.chunk.js": "/strava-github-calendar/static/js/2.441e5988.chunk.js",
     "static/js/2.441e5988.chunk.js.map": "/strava-github-calendar/static/js/2.441e5988.chunk.js.map",
     "index.html": "/strava-github-calendar/index.html",
-    "precache-manifest.550177f001d227a015518e4dd56aa5d4.js": "/strava-github-calendar/precache-manifest.550177f001d227a015518e4dd56aa5d4.js",
+    "precache-manifest.0a6fd4f450092b9d1e951c30ac2d8e2c.js": "/strava-github-calendar/precache-manifest.0a6fd4f450092b9d1e951c30ac2d8e2c.js",
     "service-worker.js": "/strava-github-calendar/service-worker.js",
     "static/css/main.f071b5a5.chunk.css.map": "/strava-github-calendar/static/css/main.f071b5a5.chunk.css.map",
     "static/js/2.441e5988.chunk.js.LICENSE.txt": "/strava-github-calendar/static/js/2.441e5988.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.abbb06d3.js",
     "static/js/2.441e5988.chunk.js",
     "static/css/main.f071b5a5.chunk.css",
-    "static/js/main.8714cd13.chunk.js"
+    "static/js/main.d6f634c9.chunk.js"
   ]
 }
