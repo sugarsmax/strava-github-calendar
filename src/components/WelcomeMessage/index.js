@@ -19,7 +19,7 @@ export default function WelcomeMessage() {
       <img
         alt="Sample graph"
         className={cx(styles.sampleGraph)}
-        src={`${process.env.PUBLIC_URL}/sample-graph_maxfield.png`}
+        src={`${process.env.PUBLIC_URL}/sample-graph_maxfield.jpg`}
       />
       <Text strong className={cx('height-200', styles.connectText)}>
         Connect your Strava account below to see yours

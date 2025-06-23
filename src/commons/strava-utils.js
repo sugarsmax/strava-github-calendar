@@ -15,7 +15,7 @@ function initializeUserClient(access_token) {
 }
 
 export function getRequestAccessURL() {
-  return Strava.oauth.getRequestAccessURL({scope: 'activity:read'});
+  return Strava.oauth.getRequestAccessURL({ scope: 'activity:read' });
 }
 
 export function getAthlete() {
@@ -24,7 +24,7 @@ export function getAthlete() {
 
 export async function completeAuthentication(code) {
   console.log('code:', code);
-  const {access_token, athlete} = await Strava.oauth.getToken(code);
+  const { access_token, athlete } = await Strava.oauth.getToken(code);
   console.log('access_token, athlete', access_token, athlete);
   _athlete = athlete;
   initializeUserClient(access_token);
@@ -83,14 +83,14 @@ function computeGraphData(allActivities, before, after) {
 }
 
 function getEffortLevel(activity) {
-  const distanceTolerance = 300;
+  const distanceTolerance = 100;
   switch (activity.type) {
     case 'Run':
       return distanceBasedEffort(activity.distance, 5000, distanceTolerance);
     case 'Ride':
-      return distanceBasedEffort(activity.distance, 10000, distanceTolerance);
+      return distanceBasedEffort(activity.distance, 2000, distanceTolerance);
     case 'Walk':
-      return distanceBasedEffort(activity.distance, 7500, distanceTolerance);
+      return distanceBasedEffort(activity.distance, 1000, distanceTolerance);
     default:
       // Considering the effort is 1.5 for any other activity
       return 1.5;
