@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/strava-github-calendar/static/css/main.f071b5a5.chunk.css",
-    "main.js": "/strava-github-calendar/static/js/main.ca27985f.chunk.js",
-    "main.js.map": "/strava-github-calendar/static/js/main.ca27985f.chunk.js.map",
+    "main.js": "/strava-github-calendar/static/js/main.9f0aac85.chunk.js",
+    "main.js.map": "/strava-github-calendar/static/js/main.9f0aac85.chunk.js.map",
     "runtime-main.js": "/strava-github-calendar/static/js/runtime-main.abbb06d3.js",
     "runtime-main.js.map": "/strava-github-calendar/static/js/runtime-main.abbb06d3.js.map",
-    "static/js/2.499198dc.chunk.js": "/strava-github-calendar/static/js/2.499198dc.chunk.js",
-    "static/js/2.499198dc.chunk.js.map": "/strava-github-calendar/static/js/2.499198dc.chunk.js.map",
+    "static/js/2.ffbe0a81.chunk.js": "/strava-github-calendar/static/js/2.ffbe0a81.chunk.js",
+    "static/js/2.ffbe0a81.chunk.js.map": "/strava-github-calendar/static/js/2.ffbe0a81.chunk.js.map",
     "index.html": "/strava-github-calendar/index.html",
-    "precache-manifest.285f5e2cc3c9298e63a44fc782518047.js": "/strava-github-calendar/precache-manifest.285f5e2cc3c9298e63a44fc782518047.js",
+    "precache-manifest.50f2b544e2f95f889a9d758ff72f042a.js": "/strava-github-calendar/precache-manifest.50f2b544e2f95f889a9d758ff72f042a.js",
     "service-worker.js": "/strava-github-calendar/service-worker.js",
     "static/css/main.f071b5a5.chunk.css.map": "/strava-github-calendar/static/css/main.f071b5a5.chunk.css.map",
-    "static/js/2.499198dc.chunk.js.LICENSE.txt": "/strava-github-calendar/static/js/2.499198dc.chunk.js.LICENSE.txt",
+    "static/js/2.ffbe0a81.chunk.js.LICENSE.txt": "/strava-github-calendar/static/js/2.ffbe0a81.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/strava-github-calendar/static/media/logo.52946ee0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.abbb06d3.js",
-    "static/js/2.499198dc.chunk.js",
+    "static/js/2.ffbe0a81.chunk.js",
     "static/css/main.f071b5a5.chunk.css",
-    "static/js/main.ca27985f.chunk.js"
+    "static/js/main.9f0aac85.chunk.js"
   ]
 }
