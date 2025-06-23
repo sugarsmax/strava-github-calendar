@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9594ab1979f490261349c35a5e8570c",
+    "revision": "74479ef858b728fa855b85e9b328d415",
     "url": "/strava-github-calendar/index.html"
   },
   {
-    "revision": "4c8e2f541b57419bc139",
+    "revision": "607884233564948de271",
     "url": "/strava-github-calendar/static/css/main.f071b5a5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/strava-github-calendar/static/js/2.441e5988.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4c8e2f541b57419bc139",
-    "url": "/strava-github-calendar/static/js/main.23e4c4a5.chunk.js"
+    "revision": "607884233564948de271",
+    "url": "/strava-github-calendar/static/js/main.8714cd13.chunk.js"
   },
   {
     "revision": "12bc03faf98ad3aca01c",
