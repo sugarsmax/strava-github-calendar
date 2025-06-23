@@ -1,0 +1,63 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  height: max-content;
+  border-radius: 4px;
+  margin: 50px auto;
+}
+
+.graphContainer {
+  padding: 30px 50px 20px 20px;
+  border: 1px solid darkgrey;
+}
+
+.graphSection {
+  display: flex;
+}
+
+.graph {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 84px;
+  width: 624px;
+}
+
+.dayRunner {
+  margin: 26px 10px 0 0;
+}
+
+.monthRunner {
+  padding: 0 16px;
+  width: 636px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.userInfoContainer {
+  justify-content: left;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.userAvatar {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.userBasicInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.userCity {
+  font-size: 12px;
+}
+
+.activitiesSummaryContainer {
+  margin: 20px;
+}
