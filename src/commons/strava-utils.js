@@ -83,14 +83,14 @@ function computeGraphData(allActivities, before, after) {
 }
 
 function getEffortLevel(activity) {
-  const distanceTolerance = 100;
+  const distanceTolerance = 200;
   switch (activity.type) {
     case 'Run':
-      return distanceBasedEffort(activity.distance, 5000, distanceTolerance);
-    case 'Ride':
       return distanceBasedEffort(activity.distance, 2000, distanceTolerance);
+    case 'Ride':
+      return distanceBasedEffort(activity.distance, 1500, distanceTolerance);
     case 'Walk':
-      return distanceBasedEffort(activity.distance, 1000, distanceTolerance);
+      return distanceBasedEffort(activity.distance, 800, distanceTolerance);
     default:
       // Considering the effort is 1.5 for any other activity
       return 1.5;
