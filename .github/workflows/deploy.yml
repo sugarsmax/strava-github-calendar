@@ -1,0 +1,41 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Build
+      run: NODE_OPTIONS="--openssl-legacy-provider" npm run build
+      env:
+        REACT_APP_STRAVA_CLIENT_ID: ${{ secrets.REACT_APP_STRAVA_CLIENT_ID }}
+        REACT_APP_STRAVA_CLIENT_SECRET: ${{ secrets.REACT_APP_STRAVA_CLIENT_SECRET }}
+        REACT_APP_STRAVA_REDIRECT_URI: https://sugarsmax.github.io/strava-github-calendar/auth-callback
+        
+    - name: Copy auth callback
+      run: cp ./build/index.html ./build/auth-callback.html
+      
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
